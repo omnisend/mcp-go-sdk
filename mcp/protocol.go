@@ -1383,7 +1383,7 @@ type ToolAnnotations struct {
 	// Default: false
 	ReadOnlyHint bool `json:"readOnlyHint"`
 	// A human-readable title for the tool.
-	Title string `json:"title"`
+	Title string `json:"title,omitempty"`
 }
 
 type ToolListChangedParams struct {
